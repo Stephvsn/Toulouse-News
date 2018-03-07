@@ -1,0 +1,204 @@
+/*
+Theme Name:     Thème enfant
+Description:    Thème enfant de Steph
+Author:         Steph Vsn
+Author URI:     https://www.wpserveur.net
+Template:       twentyseventeen                 
+Version:        0.1.0
+*/
+ 
+
+
+/* DESACTIVATION PUB WORDPRESS */
+.site-info {
+	display: none;
+}
+
+.entry-footer {
+	display: none;
+}
+
+
+/* PARAMETRES NAV BAR */ 
+@media screen and (min-width: 48em) {
+	.bop-nav-search {
+		position: relative;
+	    right: -5em;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.bop-nav-search {
+		position: relative;
+	    top: 3px;
+	}
+}
+
+.bop-nav-search div {
+	display: flex;
+}
+
+#s { 
+	border-radius: 9px;
+	margin-right: 3px;
+	height: 40px;
+	width: 10em;
+}
+
+#searchsubmit {
+	border-radius: 9px;
+	padding: 7px;
+}
+
+@media screen and (min-width: 48em) {
+	.site-header .navigation-top .menu-scroll-down {
+	right: 19em;
+	top: 0.8em;
+	}
+}
+
+
+/* PARAMETRES ACCUEIL */
+@media screen and (min-width: 48em) {
+	.background-fixed .panel-image {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.panel-image {
+		margin: 4em 0em;
+	}
+}
+
+
+.page-id-7 .pbs-main-wrapper {	
+	margin-top: 0px;
+}
+
+
+/* PARAMETRES FOOTER */
+h2.widget-title {
+	display: none;
+}
+
+.widget ul li {
+	border: none;
+	text-align: center;
+	font-size: 12px;
+}
+
+.site-footer .widget-column.footer-widget-2 {
+	float: none;
+	width: initial;
+}
+
+.widget ul li + li {
+	margin-top: -8px;
+}
+
+
+/* POSITION TITRE */
+@media screen and (min-width: 48em) {
+	.site-title {
+    	font-size: 49px;
+    	letter-spacing: 20px;
+	}
+}
+
+.site-title {
+	text-shadow: 1px 2px 1px black;
+	font-family: "Raleway", sans-serif;
+}
+
+.site-description {
+	text-shadow: 1px 2px 1px black;
+}
+    
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+	font-size: 23px;
+	letter-spacing: 0px;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+
+/* PARAMETRES PAGE ACTUALITES */
+.pbs-main-wrapper {
+	margin-top: -1.5em;
+}
+
+
+/* PARAMETRES PAGE DERNIERE ACTU */
+#rpwwt-recent-posts-widget-with-thumbnails-2 img {
+	border-radius: 6px;
+}
+
+
+/* PARAMETRES PLUS D'INFOS */
+.pbs-main-wrapper img {
+	border-radius: 8px;
+}
+
+@media screen and (max-width: 48em) {
+	.page-id-32 .pbs-main-wrapper {	
+		margin-top: 0px;
+	}
+	.page-id-32 h3 {
+		margin-bottom: -40px;
+	}
+}
+
+/* PARAMETRES ACTIVITES DU MOIS */ 
+.column-1 {
+	width: 10em;
+}
+
+.column-2 {
+	width: 10em;
+}
+
+.column-4 {
+	width: 10em;
+}
+
+
+/* PARAMETRES CONTACT */
+@media screen and (min-width: 48em) {
+	.page-id-9 .entry-content {
+		width: 65%;
+		text-align: center;
+	}
+}
+
+
+.row {
+		margin-top: 12px;
+	}
+
+.form-control {
+	border-radius: 9px;
+}
+
+.row input {
+	border-radius: 9px;
+}
+
+.radio-inline {
+	margin: 10px 12px;
+}
+
+[data-ce-tag=map] {
+	border-radius: 9px;
+}
+
+.btn-primary {
+	border-radius: 9px;
+}
+
+
+
+
+

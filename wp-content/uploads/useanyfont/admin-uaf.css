@@ -1,0 +1,7 @@
+			@font-face {
+				font-family: 'gothamthin';
+				font-style: normal;
+				src: url('//localhost:8888/wp-content/uploads/useanyfont/170209014300GothamThin.eot');
+				src: local('gothamthin'), url('//localhost:8888/wp-content/uploads/useanyfont/170209014300GothamThin.eot') format('embedded-opentype'), url('//localhost:8888/wp-content/uploads/useanyfont/170209014300GothamThin.woff') format('woff');
+			}
+		
